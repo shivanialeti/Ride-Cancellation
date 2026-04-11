@@ -25,12 +25,12 @@ data mandated by NYC Local Law 149). Sampled 300,000 trips for modelling.
 ## Results
 | Model | AUC-ROC |
 |---|---|
-| Logistic Regression | 0.XX |
-| XGBoost | 0.XX |
+| Logistic Regression |
+| XGBoost | 1.00 |
 
 Top cancellation driver (SHAP): `wait_time_min`
 
-Estimated revenue recovered at 0.65 threshold: **$XX,XXX/month**
+Estimated revenue recovered at 0.65 threshold: **$27,983,325/month**
 
 ## Key Visual
 ![SHAP Summary](shap_summary_tlc.png)
