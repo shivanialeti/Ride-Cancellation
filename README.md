@@ -25,15 +25,13 @@ data mandated by NYC Local Law 149). Sampled 300,000 trips for modelling.
 ## Results
 | Model | AUC-ROC |
 |---|---|
-| Logistic Regression |
+| Logistic Regression | 0.945 |
 | XGBoost | 1.00 |
 
 Top cancellation driver (SHAP): `wait_time_min`
 
 Estimated revenue recovered at 0.65 threshold: **$27,983,325/month**
 
-## Key Visual
-![SHAP Summary](shap_summary_tlc.png)
 
 ## Stack
 Python · XGBoost · SHAP · Pandas · PyArrow · Matplotlib · Scikit-learn
