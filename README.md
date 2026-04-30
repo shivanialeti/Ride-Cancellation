@@ -26,11 +26,11 @@ data mandated by NYC Local Law 149). Sampled 300,000 trips for modelling.
 | Model | AUC-ROC |
 |---|---|
 | Logistic Regression | 0.945 |
-| XGBoost | 1.00 |
+| XGBoost | 0.95 |
 
-Top cancellation driver (SHAP): `wait_time_min`
+Top cancellation driver (SHAP): `driver_pay_per_min`
 
-Estimated revenue recovered at 0.65 threshold: **$27,983,325/month**
+Estimated revenue recovered at 0.65 threshold: **$25,676,650/month**
 
 
 ## Stack
